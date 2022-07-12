@@ -37,14 +37,14 @@ header ul li a:hover{
     background-color: #03045e;
     border-radius: 8px;
     text-decoration: underline;
-    color: white;
+    color: aliceblue;
 }
 .mainSection{
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 40px;
-    border: 6px solid white;
+    border: 6px solid aliceblue;
     padding: 30px;
     flex-wrap: wrap;
     height: max-content;
@@ -58,10 +58,10 @@ header ul li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border: 4px solid white;
+    border: 4px solid aliceblue;
     padding: 30px;
     margin: 5px;
-    color: white;
+    color: aliceblue;
     transition: all 0.6s ease-in-out;
     cursor: pointer;
     width: 250px;
@@ -70,7 +70,7 @@ header ul li a:hover{
 }
 .selectBox:hover{
     border-radius: 30px;
-    background-color: white;
+    background-color: aliceblue;
     color: black;
     box-shadow: 0px 0px 30px 3px black;
     
@@ -102,19 +102,19 @@ a{
 #mainheading{
     text-align: center;
     font-size: 70px;
-    color: white;
+    color: aliceblue;
     text-transform: uppercase;
     text-shadow: 0px 0px 20px black;
-    border-top: 4px solid white;
-    border-bottom: 4px solid white;
+    border-top: 4px solid aliceblue;
+    border-bottom: 4px solid aliceblue;
     backdrop-filter: blur(5px);
     padding: 20px;
     margin: 10px;
     letter-spacing: 4px;
     
 }
-#mainheading3{
-    color: white;
+.mainheading3{
+    color: aliceblue;
     text-shadow: 0px 0px 10px black;
 }
 
@@ -123,12 +123,14 @@ a{
     width: 250px;
     border-radius: 20px;
     margin: 5px;
-    text-align: center;
     border: 2px solid #ffff;
+}
+.inp input{
+    padding-left: 10px ;
 }
 .btn{
     width: 90px;
-    border: 2px solid white;
+    border: 2px solid aliceblue;
     padding: 10px;
     border-radius: 5px ;
     color: black;
@@ -141,7 +143,7 @@ a{
 .btn:hover{
     border:2px solid black;
     border-radius: 20px ;
-    color: white;
+    color: aliceblue;
     width: 200px;
     background-color: #0077b6;
     transition: all 0.3s ease-in;
@@ -151,16 +153,16 @@ a{
 .mainheading2{
     text-align: center;
     font-size: 50px;
-    color: white;
-    background-color: #0077b6;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    color: black;
+    border: 2px solid aliceblue;
     text-transform: uppercase;
-    text-shadow: 0px 0px 20px black;
+    border-radius: 8px;
     padding: 20px;
+    margin: 20px;
     text-decoration: underline;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* background: linear-gradient(#09187d,#0077b6,#87b3cb); */
+    background-color: aliceblue;
+    box-shadow: inset 0px 0px 25px black;
     
 }
 
@@ -176,7 +178,7 @@ a{
 .timingBox{
     display: flex;
     border-radius: 10px;
-    border: 4px solid white;
+    border: 4px solid aliceblue;
     justify-content: space-around;
     padding: 20px;
     flex-wrap: wrap;
@@ -189,7 +191,7 @@ a{
 .times{
     display: flex;
     flex-direction: column;
-    color: white;
+    color: aliceblue;
     backdrop-filter: blur(8px);
     text-shadow: 0px 0px 15px #000;
     box-shadow:  0px 0px 12px 1px black ;
@@ -199,7 +201,7 @@ a{
     padding: 20px;
     margin: 5px;
     width: 180px;
-    border: 2px solid white;
+    border: 2px solid aliceblue;
     cursor: pointer;
     
 }
@@ -248,7 +250,7 @@ justify-content: space-around;
     align-items: center;
     margin: 20px;
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
@@ -258,7 +260,7 @@ justify-content: space-around;
     align-items: center;
     margin: 20px;
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
@@ -282,7 +284,7 @@ justify-content: space-around;
 
 
 #table_for_calendar td {
-    border: 2px solid white;
+    border: 2px solid aliceblue;
     border-radius: 10px;
     padding: 7px;
     text-align: center;
@@ -292,7 +294,7 @@ justify-content: space-around;
 }
 
 #table_for_calendar thead th {
-    border: 1px solid white;
+    border: 1px solid aliceblue;
     border-radius: 10px;
     padding: 15px;
     font-size: larger;
@@ -303,7 +305,7 @@ justify-content: space-around;
 }
 
 #thirddiv {
-    /* border: 1px solid white; */
+    /* border: 1px solid aliceblue; */
     margin: 0% 8% 0% 5%;
     width: 90%;
 }
@@ -319,7 +321,7 @@ justify-content: space-around;
 
 #heading th {
     border: 1px solid black;
-    color: white;
+    color: aliceblue;
     font-size: 15px;
     border-radius: 10px;
     padding: 5px;
@@ -357,7 +359,7 @@ justify-content: space-around;
 }
 
 .flex :hover {
-    color: white;
+    color: aliceblue;
     background-color: rgb(136, 134, 134);
     border: 1px solid #03045e;
     transition: 0.5s;
@@ -374,8 +376,51 @@ justify-content: space-around;
 #main2{
     display: none;
     margin: 20px;
-    border: 4px solid white;
+    border: 4px solid aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
+}
+.selectBox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    margin: 20px;
+    height: max-content;
+    border: 4px solid aliceblue;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);;
+    box-shadow: 0px 0px 30px 3px black;
+}
+.double{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 40px;
+}
+.message{
+    border: 6px solid aliceblue;
+    border-radius: 40px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}.message1{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fa-message{
+    font-size: 220px;
+    color: aliceblue;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
