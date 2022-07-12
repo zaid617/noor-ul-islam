@@ -7,11 +7,31 @@
     height: 180vh;
 }
 
-#mainheading3{
-    font-size: 40px;
-    margin-top: 10px;
+.mainheading2{
+    font-size: 30px;
     
 }
+
 .inp{
     width: 180px;
+}
+table{
+    color: white;
+    border-collapse: separate;
+    border-spacing: 39px 5px;
+    display: inline;
+    font-size: 12px;
+}
+
+
+
+.selectBox2{
+    padding: 40px;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

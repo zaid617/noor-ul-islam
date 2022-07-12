@@ -7,8 +7,9 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/52837d9cff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (max-width:780px)" href="./tab.css">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Noor ul Islam</title>
 </head>
 <body>
     <header>
@@ -18,10 +19,12 @@
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="">About</a></li>
         </ul>
+        <div class="search"><input type="search" id="search" class="inp" placeholder="Search"> <i class="fa-solid fa-magnifying-glass" id="mag"></i></div>
     </header>
          
         <h1 class="mainheading2">Noor ul Islam</h1>
 
+        <h1 class="mainheading3" style="text-align: center;">Select Any One</h1>
     <div class="mainSection">
         <a href="#sec1"><div class="selectBox" id="Namaz" >
             <h1>Namaz Time</h1>
@@ -32,8 +35,8 @@
             <div class="description" id="description2"><i class="fa-solid fa-calendar-days"></i><div>Get Hijiri Calender With Respect To Your City. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil.</div></div>
         </div></a>
         <div class="selectBox" id="Quran" >
-            <h1>AL-Quran</h1>
-            <div class="description" id="description3"><i class="fa-solid fa-book-open-cover"></i><div>Find Verses Of Al-Quran You Want. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, it Lorem, ipsum.</div></div>
+            <h1>AL - Quran</h1>
+            <div class="description" id="description3"><i class="fa-solid fa-book-quran"></i><div>Find Verses Of Al-Quran You Want. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, it Lorem, ipsum.</div></div>
         </div>
     </div>
     <h1 class="mainheading2" >Namaz Timing</h1>
@@ -83,11 +86,11 @@
     <section id="sec2">
         <h1 class="mainheading2">Hijri Calendar For Month</h1>
         <form onsubmit="HijriCalendar()" id="form2">
-             
-            <input type="text" placeholder="Enter your city" class="inp" value="karachi" id="citynames_forcalendar">
-            <input type="text" placeholder="Enter your country" class="inp" value="Pakistan" id="countrynames_forcalendar">
-            <input type="number" placeholder="Enter month number" class="inp" value="9" id="monthsnames">
-            <input type="number" placeholder="Enter year number" class="inp" value="1443" id="yearnames"></div>
+             <h1 class="mainheading3">Enter Your Location</h1>
+            <input type="text" placeholder="Enter your city" required class="inp" value="karachi" id="citynames_forcalendar">
+            <input type="text" placeholder="Enter your country" required class="inp" value="Pakistan" id="countrynames_forcalendar">
+            <input type="number" placeholder="Enter month number" required class="inp" value="9" id="monthsnames">
+            <input type="number" placeholder="Enter year number" required class="inp" value="1443" id="yearnames"></div>
             <button class="btn" type="submit">Check</button>
         </form>
         <div id="main2">
@@ -124,6 +127,66 @@
             </div>
         </div>
     </section>
+    <section id="about">
+        <h1 class="mainheading2">About Us</h1>
+        <div class="selectBox2">
+            <div class="message">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum praesentium dignissimos libero asperiores alias quisquam nesciunt ipsam. Labore hic reiciendis officia deserunt, minima velit! Perferendis asperiores non ex provident excepturi!
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="features2" id="about">
+        <span>
+            <table>
+                <tr>
+                    <th><b>Customer Service</b></th> <br><br>
+                    <th><b>Legal & Corporate</b></th>
+                </tr>
+                <br>
+                <tr>
+                    <td><a href=""> All our services</a>
+                    
+                    </td>
+                    <td><a href=""> Terms of Use</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href=""> FAQs</a></td>
+                    <td><a href=""> Privacy Notice</a></td>
+                </tr>
+                <tr>
+                    <td><a href=""> Contact us</a></td>
+                    <td><a href=""> Cookies Notice</a></td>
+                </tr>
+                <tr>
+                    <td><a href=""> Store Locator</a></td>
+                    <td><a href=""> Impressum</a></td>
+                </tr>
+
+            </table>
+            <table  class="icon">
+            <tr>
+                <th>Follow us</th>
+            </tr>
+            <tr>
+                <td class="icons"><i class="fa-brands fa-facebook"></i>&nbsp;</td>
+                <td class="icons"><i class="fa-brands fa-instagram"></i></td>
+            </tr>
+            <tr>
+                <td class="icons"><i class="fa-brands fa-youtube"></i></td>
+                <td class="icons"><i class="fa-brands fa-twitter"></i></td>
+            </tr> 
+            <tr>
+                <td class="icons"><i class="fa-brands fa-viber"></i></td>
+                <td class="icons"><i class="fa-brands fa-whatsapp"></i></td>
+            </tr></table>
+               
+            
+        </span>
+        
+    </footer>
     <script src="./app.js"></script>
 </body>
 </html>

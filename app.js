@@ -6,8 +6,16 @@ let description = document.getElementById('description')
 let description2 = document.getElementById('description2')
 let description3 = document.getElementById('description3')
 let form = document.getElementById('main');
+let mag = document.getElementById('mag')
+let search = document.getElementById('.search')
 
+mag.addEventListener("mouseover",function show() {
+    search.style.display = 'inline'
+})
 
+search.addEventListener("mouseout",function show() {
+    search.style.display = 'none'
+})
 
 Namaz.addEventListener("mouseover",function show() {
     description.style.display = 'flex'

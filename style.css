@@ -11,8 +11,12 @@ body{
     background-position-x: center;
 }
 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: aliceblue;
     margin-bottom: 20px;
+    padding: 5px;
 }
 header ul{
     display: flex;
@@ -45,12 +49,13 @@ header ul li a:hover{
     justify-content: space-around;
     margin: 40px;
     border: 6px solid aliceblue;
-    padding: 30px;
+    padding: 80px;
     flex-wrap: wrap;
     height: max-content;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e,#00b4d8);
     
 }
 .selectBox{
@@ -116,6 +121,8 @@ a{
 .mainheading3{
     color: aliceblue;
     text-shadow: 0px 0px 10px black;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .inp{
@@ -124,6 +131,7 @@ a{
     border-radius: 20px;
     margin: 5px;
     border: 2px solid #ffff;
+    border: 1px solid black;
 }
 .inp input{
     padding-left: 10px ;
@@ -152,17 +160,17 @@ a{
 }
 .mainheading2{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: black;
     border: 2px solid aliceblue;
     text-transform: uppercase;
     border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
+    padding: 40px;
+    margin: 50px;
     text-decoration: underline;
     /* background: linear-gradient(#09187d,#0077b6,#87b3cb); */
     background-color: aliceblue;
-    box-shadow: inset 0px 0px 25px black;
+    box-shadow: inset 0px 0px 15px black;
     
 }
 
@@ -172,6 +180,7 @@ a{
     justify-content: space-around;
     display:none;
     flex-direction: column;
+    background: linear-gradient(#03045e,#00b4d8);
 
 }
 
@@ -185,6 +194,7 @@ a{
     margin-bottom: 5px;
     margin-top: 10px;
     border-radius: 20px;
+    background: linear-gradient(#03045e,#00b4d8);
     box-shadow: 0px 0px 30px 3px black;
 }
 
@@ -249,21 +259,23 @@ justify-content: space-around;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    padding: 10px;
+    padding: 80px;
     border: 2px solid aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e,#00b4d8);
 }#form2{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    padding: 10px;
+    padding: 80px;
     border: 2px solid aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e,#00b4d8);
 }
 
 
@@ -273,6 +285,7 @@ justify-content: space-around;
 
 #table_for_calendar {
     margin: 10px auto;
+    background: linear-gradient(#03045e,#00b4d8);
 }
 
 #table_for_calendar :hover {
@@ -380,30 +393,35 @@ justify-content: space-around;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e,#00b4d8);
 }
 .selectBox2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 40px;
+    padding: 80px;
     margin: 20px;
     height: max-content;
     border: 4px solid aliceblue;
+    color: aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);;
     box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e,#00b4d8);
 }
+
 .double{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 10px;
-    padding: 40px;
+    padding: 80px;
 }
 .message{
     border: 6px solid aliceblue;
     border-radius: 40px;
-    padding: 80px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -424,3 +442,48 @@ justify-content: space-around;
     flex-direction: column;
     margin: 10px;
 }
+
+
+
+
+
+.features2{
+    display: flex;
+     height: max-content;
+     background-color: black;
+     padding: 40px;
+     box-shadow: inset 0px 0px 10px  white;
+ 
+ 
+     
+  }
+  table{
+     color: white;
+     border-collapse: separate;
+     border-spacing: 60px 7px;
+     display: inline;
+     font-size: 18px;
+     
+ 
+    
+ }
+ td>a{
+     text-decoration: none;
+     color: white;
+ }
+ .icons{
+     cursor: pointer;
+ }
+ th{
+     font-size: 25px;
+     text-decoration: underline;
+ 
+ }
+ .fa-magnifying-glass{
+     font-size: 20px;
+     cursor: pointer;
+ }
+
+ #search{
+     display: none;
+ }
