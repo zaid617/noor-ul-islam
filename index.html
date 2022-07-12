@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/52837d9cff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img src="./logo.png" alt="" width="25px"></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </header>
+         
+        <h1 class="mainheading2">~Noor ul Islam~</h1>
+
+    <div class="mainSection">
+        <a href="#sec1"><div class="selectBox" id="Namaz" >
+            <h1>Namaz Time</h1>
+            <div class="description" id="description"><i class="fa-solid fa-mosque"></i><div>Get Namaz Timing With Respect To Your City. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil.</div></div>
+        </div></a>
+        <a href="#sec2"><div class="selectBox" id="Hijiri" >
+            <h1>Hijiri Calender</h1>
+            <div class="description" id="description2"><i class="fa-solid fa-calendar-days"></i><div>Get Hijiri Calender With Respect To Your City. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil.</div></div>
+        </div></a>
+        <div class="selectBox" id="Quran" >
+            <h1>AL-Quran</h1>
+            <div class="description" id="description3"><i class="fa-solid fa-book-open-cover"></i><div>Find Verses Of Al-Quran You Want. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, it Lorem, ipsum.</div></div>
+        </div>
+    </div>
+    <h1 class="mainheading2" >~Namaz Timing~</h1>
+    <section id="sec1">
+        <form onsubmit="data(); return false;" id="form">
+            <h1 id="mainheading3">ENTER YOUR LOCATION</h1>
+            <input type="text" readonly value="Pakistan" placeholder="Enter Your Country Name :" class="inp" id="country">
+            <input type="text" required placeholder="Enter Your City Name :" class="inp" id="city">
+            <button class="btn" type="submit">Check</button>
+        </form>
+        
+        <div class="main" id="main">
+    
+    
+            <h1 class="mainheading2">~حي على الفلاح~</h1>
+
+     <div class="times1">
+            <div class="timingBox">
+                
+                <div class="box">
+                <div class="times" id="Fajarbox">
+                    <h1 class="prayerName">Fajar</h1>
+                    <h3 class="time" id="Fajar"> - - : - -</h3>
+                </div>
+                </div>
+                <div class="times" id="Zoharbox">
+                    <h1 class="prayerName">Zohar</h1>
+                    <h3 class="time" id="Zohar">- - : - -</h3>
+                </div>
+                <div class="times" id="Asarbox">
+                    <h1 class="prayerName">Asar</h1>
+                    <h3 class="time" id="Asar">- - : - -</h3>
+                </div>
+                <div class="times" id="Maghribbox">
+                    <h1 class="prayerName">Maghrib</h1>
+                    <h3 class="time" id="Maghrib">- - : - -</h3>
+                </div> 
+                <div class="times" id="Eshabox">
+                    <h1 class="prayerName">Esha</h1>
+                    <h3 class="time" id="Esha">- - : - -</h3>
+                </div> 
+                
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="sec2">
+        <h1 class="mainheading2">~Hijri Calendar For Month~</h1>
+        <form onsubmit="HijriCalendar()" id="form2">
+             
+            <input type="text" placeholder="Enter your city" class="inp" value="karachi" id="citynames_forcalendar">
+            <input type="text" placeholder="Enter your country" class="inp" value="Pakistan" id="countrynames_forcalendar">
+            <input type="number" placeholder="Enter month number" class="inp" value="9" id="monthsnames">
+            <input type="number" placeholder="Enter year number" class="inp" value="1443" id="yearnames"></div>
+            <button class="btn" type="submit">Check</button>
+        </form>
+        <div id="main2">
+            <table id="table_for_calendar">
+                <thead>
+                    <th colspan="6" id="hijrimonth"></th>
+                    <th colspan="6" id="georgmonth"></th>
+                </thead>
+                <tr id="heading">
+    
+                </tr>
+            </table>
+        </div>
+    </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

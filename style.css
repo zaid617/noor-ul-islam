@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#03045e,#00b4d8);
+    height: max-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+header{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+.secform{
+    display: flex;
+}
+header ul li{
+    padding: 10px;
+}
+header ul li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+header ul li a:hover{
+    background-color: #03045e;
+    border-radius: 8px;
+    text-decoration: underline;
+    color: white;
+}
+.mainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    border: 6px solid white;
+    padding: 30px;
+    flex-wrap: wrap;
+    height: max-content;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);;
+    box-shadow: 0px 0px 30px 3px black;
+    
+}
+.selectBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 4px solid white;
+    padding: 30px;
+    margin: 5px;
+    color: white;
+    transition: all 0.6s ease-in-out;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    
+}
+.selectBox:hover{
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 30px 3px black;
+    
+
+}
+a{
+    text-decoration: none;
+}
+.selectBox h1{
+    text-decoration: underline;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.description{
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    
+}
+.fa-solid{
+    font-size: 50px;
+    margin: 10px;
+
+}
+/* new file */
+
+#mainheading{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px black;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    margin: 10px;
+    letter-spacing: 4px;
+    
+}
+#mainheading3{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+.inp{
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid #ffff;
+}
+.btn{
+    width: 90px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px ;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
+    background: #00b4d8;
+
+
+}
+.btn:hover{
+    border:2px solid black;
+    border-radius: 20px ;
+    color: white;
+    width: 200px;
+    background-color: #0077b6;
+    transition: all 0.3s ease-in;
+    text-transform: uppercase;
+
+}
+.mainheading2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: #0077b6;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px black;
+    padding: 20px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.main{
+   
+    flex-direction: column;
+    justify-content: space-around;
+    display:none;
+    flex-direction: column;
+
+}
+
+.timingBox{
+    display: flex;
+    border-radius: 10px;
+    border: 4px solid white;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 3px black;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    backdrop-filter: blur(8px);
+    text-shadow: 0px 0px 15px #000;
+    box-shadow:  0px 0px 12px 1px black ;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 5px;
+    width: 180px;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+.times:hover{
+    color: black;
+    text-shadow: 0px 0px 65px #000;
+}
+.times::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    border-radius: 20px;
+  }
+  
+  .times:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    border-radius: 18px;
+  }
+  
+  .times::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #fff;
+    z-index: -1;
+    transition: transform .5s ease;
+    border-radius: 19px;
+  }
+
+.prayerName{
+    text-decoration: underline;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.times1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);;
+    box-shadow: 0px 0px 30px 3px black;
+}#form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);;
+    box-shadow: 0px 0px 30px 3px black;
+}
+
+
+
+
+
+
+#table_for_calendar {
+    margin: 10px auto;
+}
+
+#table_for_calendar :hover {
+    color: black;
+    background-color: #0000;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+
+#table_for_calendar td {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    background-color: #12537b;
+    color: #fff;
+    font-size: bold;
+}
+
+#table_for_calendar thead th {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #000;
+    color: #fff;
+}
+
+#thirddiv {
+    /* border: 1px solid white; */
+    margin: 0% 8% 0% 5%;
+    width: 90%;
+}
+
+#heading {
+    /* border: 1px solid black; */
+    text-align: center;
+    /* width: 100vw; */
+    color: black;
+    background-color: #00b4d8;
+    padding: 5px;
+}
+
+#heading th {
+    border: 1px solid black;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+#firstbtn,
+#calendar {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #03045e;
+    color: black;
+}
+
+#calendar,
+#firstbtn {
+    margin: 10px auto;
+}
+#calendar:hover {
+    color: black;
+    background-color: #87b3cb;
+    border: 1px solid #03045e;
+    transition: 0.5s;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.flex :hover {
+    color: white;
+    background-color: rgb(136, 134, 134);
+    border: 1px solid #03045e;
+    transition: 0.5s;
+}
+
+.flex p {
+    background-color: #03045e;
+    width: 120px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#main2{
+    display: none;
+    margin: 20px;
+    border: 4px solid white;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);;
+    box-shadow: 0px 0px 30px 3px black;
+}
