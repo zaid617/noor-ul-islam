@@ -320,11 +320,6 @@ justify-content: space-around;
     color: #fff;
 }
 
-#thirddiv {
-    /* border: 1px solid aliceblue; */
-    margin: 0% 8% 0% 5%;
-    width: 90%;
-}
 
 #heading {
     text-align: center;
@@ -471,47 +466,16 @@ justify-content: space-around;
      display: none;
  }
 
- @media screen and (max-width:1700px){
-
-    #table_for_calendar td { 
-        padding: 6px;
-    }
-    
-    #table_for_calendar thead th {
-        padding: 12px;
-    }
-    
-    #heading {
-        padding: 4px;
-    }
-    
-    #heading th {
-        font-size: 12px;
-        padding: 4px;
-    }
-    
-    
-    
-    #calendar {
-       
-        padding: 5px;
-        
-    }
-    
-    #calendar{
-        margin: 0px;
-    }
-   
-
- }@media screen and (max-width:1260px){
+@media screen and (max-width:1400px){
  
-    table{
-        font-size: 10px;
+    table {
+        border-spacing: 12px 12px;
+        font-size: 9px;
     }
 
 }
 
- @media screen and (max-width:840px){
+ @media screen and (max-width:920px){
     header ul li{
         padding: 5px;
     }
@@ -540,9 +504,14 @@ justify-content: space-around;
     .inp{
         width: 180px;
     }
-    th,td{
-        font-size: 15px;
-        text-align: left;
+
+    table {
+        border-spacing: 4px 4px;
+        font-size: 6px;
+    }
+    #table_for_calendar td {
+        padding: 4px;
+        margin: 0px;
     }
     
  }

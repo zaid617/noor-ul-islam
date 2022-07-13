@@ -49,40 +49,14 @@ let data = ()=>{
             .then(function (response) {
                 data = response.data;
 
-                Fajarbox.addEventListener("mouseover",function show() {
+                
                     Fajar.innerHTML = "Timing:" +"  "+ data.data.timings.Fajr;
-                })
-                Zoharbox.addEventListener("mouseover",function show() {
                     Zohar.innerHTML = "Timing:" +"  "+ data.data.timings.Dhuhr;
-                })
-                Asarbox.addEventListener("mouseover",function show() {
                     Asar.innerHTML = "Timing:" +"  "+ data.data.timings.Asr;
-                })
-                Maghribbox.addEventListener("mouseover",function show() {
                     Maghrib.innerHTML = "Timing:" +"  "+ data.data.timings.Maghrib;
-                })
-                Eshabox.addEventListener("mouseover",function show() {
                     Esha.innerHTML = "Timing:" +"  "+ data.data.timings.Isha;
                 })
                 
-                Fajarbox.addEventListener("mouseout",function show() {
-                    Fajar.innerHTML = " - - : - -";
-                })
-                Zoharbox.addEventListener("mouseout",function show() {
-                    Zohar.innerHTML = "- - : - -";
-                })
-                Asarbox.addEventListener("mouseout",function show() {
-                    Asar.innerHTML = "- - : - -";
-                })
-                Maghribbox.addEventListener("mouseout",function show() {
-                    Maghrib.innerHTML = "- - : - -";
-                })
-                Eshabox.addEventListener("mouseout",function show() {
-                    Esha.innerHTML = "- - : - -";
-                })
-                
-                
-            })
             main.style.display = 'flex';
             return false;
         }
