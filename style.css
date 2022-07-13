@@ -293,7 +293,6 @@ justify-content: space-around;
 }
 
 #table_for_calendar :hover {
-    color: black;
     background-color: #0000;
     border: 1px solid #fff;
     transition: 0.5s;
@@ -328,9 +327,7 @@ justify-content: space-around;
 }
 
 #heading {
-    /* border: 1px solid black; */
     text-align: center;
-    /* width: 100vw; */
     color: black;
     background-color: #00b4d8;
     padding: 5px;
@@ -358,7 +355,7 @@ justify-content: space-around;
 #calendar{
     margin: 10px auto;
 }
-#calendar:hover {
+#heading:hover {
     color: black;
     background-color: #87b3cb;
     border: 1px solid #03045e;
@@ -474,6 +471,45 @@ justify-content: space-around;
      display: none;
  }
 
+ @media screen and (max-width:1700px){
+
+    #table_for_calendar td { 
+        padding: 6px;
+    }
+    
+    #table_for_calendar thead th {
+        padding: 12px;
+    }
+    
+    #heading {
+        padding: 4px;
+    }
+    
+    #heading th {
+        font-size: 12px;
+        padding: 4px;
+    }
+    
+    
+    
+    #calendar {
+       
+        padding: 5px;
+        
+    }
+    
+    #calendar{
+        margin: 0px;
+    }
+   
+
+ }@media screen and (max-width:1260px){
+ 
+    table{
+        font-size: 10px;
+    }
+
+}
 
  @media screen and (max-width:840px){
     header ul li{
