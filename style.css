@@ -179,6 +179,12 @@ a{
     display:none;
     flex-direction: column;
     background: linear-gradient(#03045e,#00b4d8);
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);;
+    box-shadow: 0px 0px 30px 3px black;
+    margin: 20px;
+    padding: 40px;
+    border: 2px solid white;
 
 }
 

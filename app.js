@@ -129,7 +129,9 @@ let data = ()=>{
                         }
                         document.getElementById('hijrimonth').innerHTML = "Islamic Month :" + " " + response.data.data[0].date.hijri.month.en;
                         document.getElementById('georgmonth').innerHTML = "Month :" + " " + response.data.data[0].date.gregorian.month.en;
-                        document.getElementById('heading').innerHTML = ` <th>S.No</th>
+                        document.getElementById('heading').innerHTML = ` 
+
+                        <th>S.No</th>
                         <th>Islamic Date:</th>
                         <th>Date:</th>
                         <th>Day:</th>
@@ -145,7 +147,7 @@ let data = ()=>{
                     }
                     
                     )
-                    main2.style.display = 'block'}
+                    main2.style.display = 'flex'}
 
 
 let click = ()=>{
