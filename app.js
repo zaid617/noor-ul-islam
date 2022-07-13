@@ -6,16 +6,7 @@ let description = document.getElementById('description')
 let description2 = document.getElementById('description2')
 let description3 = document.getElementById('description3')
 let form = document.getElementById('main');
-let mag = document.getElementById('mag')
-let search = document.getElementById('.search')
 
-mag.addEventListener("mouseover",function show() {
-    search.style.display = 'inline'
-})
-
-search.addEventListener("mouseout",function show() {
-    search.style.display = 'none'
-})
 
 Namaz.addEventListener("mouseover",function show() {
     description.style.display = 'flex'
@@ -38,8 +29,6 @@ Quran.addEventListener("mouseover",function show() {
 Quran.addEventListener("mouseout",function hide() {
     description3.style.display = 'none'
 });
-
-
 
 let data = ()=>{
     let city = document.getElementById('city').value;
@@ -157,3 +146,14 @@ let data = ()=>{
                     
                     )
                     main2.style.display = 'block'}
+
+
+let click = ()=>{
+    let search = document.getElementById('.search')
+    search.style.display = 'inline'
+
+
+    search.addEventListener("mouseout",function show() {
+    search.style.display = 'none'
+})
+}
