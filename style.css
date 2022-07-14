@@ -315,7 +315,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    padding: 80px;
+    padding: 50px;
     border: 2px solid aliceblue;
     border-radius: 20px;
     -webkit-background-filter: blur(20px);
@@ -544,6 +544,9 @@ th {
     }
 
 }
+#surah{
+    font-size: 15px;
+}
 
 @media screen and (max-width:920px) {
     header ul li {
@@ -599,7 +602,12 @@ th {
     .mainheading2 {
         font-size: 20px;
     }
-
+    .form3{
+        padding: 30px;
+    }
+    #form2{
+        padding: 30px;
+    }
     .mainheading3 {
         font-size: 17px;
     }
