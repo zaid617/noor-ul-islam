@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Noor ul Islam</title>
 </head>
+
 <body>
     <header>
         <ul>
@@ -19,111 +21,154 @@
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#about">About</a></li>
         </ul>
-        <div class="search"><input type="search" id="search" class="inp" placeholder="Search"> <i class="fa-solid fa-magnifying-glass" id="mag" onclick="click()"></i></div>
+        <div class="search"><input type="search" id="search" class="inp" placeholder="Search"> <i
+                class="fa-solid fa-magnifying-glass" id="mag" onclick="click()"></i></div>
     </header>
-         
-        <h1 class="mainheading2">Noor ul Islam</h1>
 
-        <h1 class="mainheading3" >Select Any One</h1>
+    <h1 class="mainheading2">Noor ul Islam</h1>
+
+    <h1 class="mainheading3">Select Any One</h1>
     <div class="mainSection">
-        <a href="#sec1"><div class="selectBox" id="Namaz" >
-            <h1>Namaz Time</h1>
-            <div class="description" id="description"><i class="fa-solid fa-mosque"></i><div>Get Namaz Timing With Respect To Your City. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil.</div></div>
-        </div></a>
-        <a href="#sec2"><div class="selectBox" id="Hijiri" >
-            <h1>Hijiri Calender</h1>
-            <div class="description" id="description2"><i class="fa-solid fa-calendar-days"></i><div>Get Hijiri Calender With Respect To Your City. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, nihil.</div></div>
-        </div></a>
-        <a href=""><div class="selectBox" id="Quran" >
-            <h1>Al-Quran</h1>
-            <div class="description" id="description3"><i class="fa-solid fa-book-quran"></i><div>Find Verses Of Al-Quran You Want. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, it Lorem, ipsum.</div></div>
-        </div></a>
+        <a href="#sec1">
+            <div class="selectBox" id="Namaz">
+                <h1>Namaz Time</h1>
+                <div class="description" id="description"><i class="fa-solid fa-mosque"></i>
+                    <div>Get Namaz Timing With Respect To Your City. Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Fugit, nihil.</div>
+                </div>
+            </div>
+        </a>
+        <a href="#sec2">
+            <div class="selectBox" id="Hijiri">
+                <h1>Hijiri Calender</h1>
+                <div class="description" id="description2"><i class="fa-solid fa-calendar-days"></i>
+                    <div>Get Hijiri Calender With Respect To Your City. Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Fugit, nihil.</div>
+                </div>
+            </div>
+        </a>
+        <a href="#sec3">
+            <div class="selectBox" id="Quran">
+                <h1>Al-Quran</h1>
+                <div class="description" id="description3"><i class="fa-solid fa-book-quran"></i>
+                    <div>Find Verses Of Al-Quran You Want. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Fugit, it Lorem, ipsum.</div>
+                </div>
+            </div>
+        </a>
     </div>
-    <h1 class="mainheading2" >Namaz Timing</h1>
+    <h1 class="mainheading2">Namaz Timing</h1>
     <section id="sec1">
         <form onsubmit="data(); return false;" id="form">
-            <h1 class="mainheading3">ENTER YOUR LOCATION</h1>
-            <input type="text" readonly value="Pakistan" placeholder="Enter Your Country Name :" class="inp" id="country">
-            <input type="text" required placeholder="Enter Your City Name :" class="inp" id="city">
-            <button class="btn" type="submit">Check</button>
+            <div class="form3">
+                <h1 class="mainheading3">ENTER YOUR LOCATION</h1>
+                <input type="text" readonly value="Pakistan" placeholder="Enter Your Country Name :" class="inp"
+                    id="country">
+                <input type="text" required placeholder="Enter Your City Name :" class="inp" id="city">
+                <button class="btn" type="submit">Check</button>
+            </div>
         </form>
-        
+
         <div class="main" id="main">
-    
-    
+
+
             <h1 class="mainheading2">حي على الفلاح</h1>
 
-     <div class="times1">
-            <div class="timingBox">
-                
-                <div class="box">
-                <div class="times" id="Fajarbox">
-                    <h1 class="prayerName">Fajar</h1>
-                    <h3 class="time" id="Fajar"> - - : - -</h3>
+            <div class="times1">
+                <div class="timingBox">
+
+                    <div class="box">
+                        <div class="times" id="Fajarbox">
+                            <h1 class="prayerName">Fajar</h1>
+                            <h3 class="time" id="Fajar"> - - : - -</h3>
+                        </div>
+                    </div>
+                    <div class="times" id="Zoharbox">
+                        <h1 class="prayerName">Zohar</h1>
+                        <h3 class="time" id="Zohar">- - : - -</h3>
+                    </div>
+                    <div class="times" id="Asarbox">
+                        <h1 class="prayerName">Asar</h1>
+                        <h3 class="time" id="Asar">- - : - -</h3>
+                    </div>
+                    <div class="times" id="Maghribbox">
+                        <h1 class="prayerName">Maghrib</h1>
+                        <h3 class="time" id="Maghrib">- - : - -</h3>
+                    </div>
+                    <div class="times" id="Eshabox">
+                        <h1 class="prayerName">Esha</h1>
+                        <h3 class="time" id="Esha">- - : - -</h3>
+                    </div>
+
                 </div>
-                </div>
-                <div class="times" id="Zoharbox">
-                    <h1 class="prayerName">Zohar</h1>
-                    <h3 class="time" id="Zohar">- - : - -</h3>
-                </div>
-                <div class="times" id="Asarbox">
-                    <h1 class="prayerName">Asar</h1>
-                    <h3 class="time" id="Asar">- - : - -</h3>
-                </div>
-                <div class="times" id="Maghribbox">
-                    <h1 class="prayerName">Maghrib</h1>
-                    <h3 class="time" id="Maghrib">- - : - -</h3>
-                </div> 
-                <div class="times" id="Eshabox">
-                    <h1 class="prayerName">Esha</h1>
-                    <h3 class="time" id="Esha">- - : - -</h3>
-                </div> 
-                
             </div>
         </div>
-    </div>
     </section>
     <section id="sec2">
         <h1 class="mainheading2">Hijri Calendar For Month</h1>
-        <form onsubmit="HijriCalendar()" id="form2">
-             <h1 class="mainheading3">Enter Your Location</h1>
-            <input type="text" placeholder="Enter your city" required class="inp" value="karachi" id="citynames_forcalendar">
-            <input type="text" placeholder="Enter your country" required class="inp" value="Pakistan" id="countrynames_forcalendar">
-            <input type="number" placeholder="Enter month number" required class="inp" value="9" id="monthsnames">
-            <input type="number" placeholder="Enter year number" required class="inp" value="1443" id="yearnames"></div>
-            <button class="btn" type="submit">Check</button>
+        <div class="form3">
+            <form onsubmit="HijriCalendar()" id="form2" class="form3">
+                <h1 class="mainheading3">Enter Your Location</h1>
+                <input type="text" placeholder="Enter your city" required class="inp" value="karachi"
+                    id="citynames_forcalendar">
+                <input type="text" placeholder="Enter your country" required class="inp" value="Pakistan"
+                    id="countrynames_forcalendar">
+                <input type="number" placeholder="Enter month number" required class="inp" value="9" id="monthsnames">
+                <input type="number" placeholder="Enter year number" required class="inp" value="1443" id="yearnames">
+                <button class="btn" type="submit">Check</button>
+        </div>
+        </div>
         </form>
+
         <div id="main2">
             <table id="table_for_calendar">
                 <thead>
-                    <th colspan="12" ><div id="georgmonth"></div><div id="hijrimonth"></div></th>
-                    
+                    <th colspan="12">
+                        <div id="georgmonth"></div>
+                        <div id="hijrimonth"></div>
+                    </th>
+
                 </thead>
                 <tr id="heading">
-    
+
                 </tr>
             </table>
         </div>
-    </div>
+        </div>
     </section>
-    <section id="quran">
+    <section id="sec3">
+        <h1 class="mainheading2">Al- Quran</h1>
+        <div class="selectBox3">
+            <form onsubmit="ayah(); return false" id="form3">
+                <div class="form3">
+                    <h1 class="mainheading3">Enter Any Surah Number</h1>
+                    <input type="number" placeholder="Enter Surah Number" required class="inp" value="114" min="1"
+                        max="114" id="surah_num">
+                    <button class="btn" type="submit">Check</button>
+                </div>
+            </form>
+
+            <div class="selectbox form3" id="surah">
+
+            </div>
+        </div>
     </section>
     <section id="contact">
         <h1 class="mainheading2">Contact Us</h1>
         <div class="selectBox2">
-            
-                <div class="message1"><i class="fa-solid fa-message"></i></div>
-                <div class="message">
-                    <h1 class="mainheading3">Have Any Question?</h1>
-                    <form >
+
+            <div class="message1"><i class="fa-solid fa-message"></i></div>
+            <div class="message">
+                <h1 class="mainheading3">Have Any Question?</h1>
+                <form>
                     <div class="align">
-                    <input type="text" class="inp" required placeholder="First Name :">
-                    <input type="text" class="inp" required placeholder="Last Name :">
-                    <input type="email" class="inp" required placeholder="Email :">
-                    <input type="text" class="inp" required placeholder="Write Message...">
-                </div>
-            </form>
-            <button class="btn">Submit</button>
+                        <input type="text" class="inp" required placeholder="First Name :">
+                        <input type="text" class="inp" required placeholder="Last Name :">
+                        <input type="email" class="inp" required placeholder="Email :">
+                        <input type="text" class="inp" required placeholder="Write Message...">
+                    </div>
+                </form>
+                <button class="btn">Submit</button>
             </div>
         </div>
     </section>
@@ -131,7 +176,7 @@
         <h1 class="mainheading2">About Us</h1>
         <div class="selectBox2">
             <div class="message">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum praesentium dignissimos libero asperiores alias quisquam nesciunt ipsam. Labore hic reiciendis officia deserunt, minima velit! Perferendis asperiores non ex provident excepturi!
+                This is my assignment for calling an api. In this app we use aladhan api to get data from the server and then deploy on the web page.
             </div>
         </div>
     </section>
@@ -147,7 +192,7 @@
                 <br>
                 <tr>
                     <td><a href=""> All our services</a>
-                    
+
                     </td>
                     <td><a href=""> Terms of Use</a>
                     </td>
@@ -162,27 +207,29 @@
                 </tr>
 
             </table>
-            <table  class="icon">
-            <tr>
-                <th>Follow us</th>
-            </tr>
-            <tr>
-                <td class="icons"><i class="fa-brands fa-facebook"></i>&nbsp;</td>
-                <td class="icons"><i class="fa-brands fa-instagram"></i></td>
-            </tr>
-            <tr>
-                <td class="icons"><i class="fa-brands fa-youtube"></i></td>
-                <td class="icons"><i class="fa-brands fa-twitter"></i></td>
-            </tr> 
-            <tr>
-                <td class="icons"><i class="fa-brands fa-viber"></i></td>
-                <td class="icons"><i class="fa-brands fa-whatsapp"></i></td>
-            </tr></table>
-               
-            
+            <table class="icon">
+                <tr>
+                    <th>Follow us</th>
+                </tr>
+                <tr>
+                    <td class="icons"><i class="fa-brands fa-facebook"></i>&nbsp;</td>
+                    <td class="icons"><i class="fa-brands fa-instagram"></i></td>
+                </tr>
+                <tr>
+                    <td class="icons"><i class="fa-brands fa-youtube"></i></td>
+                    <td class="icons"><i class="fa-brands fa-twitter"></i></td>
+                </tr>
+                <tr>
+                    <td class="icons"><i class="fa-brands fa-viber"></i></td>
+                    <td class="icons"><i class="fa-brands fa-whatsapp"></i></td>
+                </tr>
+            </table>
+
+
         </span>
-        
+
     </footer>
     <script src="./app.js"></script>
 </body>
+
 </html>

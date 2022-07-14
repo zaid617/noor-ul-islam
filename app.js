@@ -38,11 +38,6 @@ let data = ()=>{
     let Asar = document.getElementById('Asar')
     let Maghrib = document.getElementById('Maghrib')
     let Esha = document.getElementById('Esha')
-    let Fajarbox = document.getElementById('Fajarbox')
-    let Zoharbox = document.getElementById('Zoharbox')
-    let Asarbox = document.getElementById('Asarbox')
-    let Maghribbox = document.getElementById('Maghribbox')
-    let Eshabox = document.getElementById('Eshabox')
     let main = document.getElementById('main')
     
     axios.get(`https://api.aladhan.com/v1/timingsByCity?city=${city}&country=${country}&method=1`)
@@ -132,4 +127,21 @@ let click = ()=>{
     search.addEventListener("mouseout",function show() {
     search.style.display = 'none'
 })
+}
+
+let ayah = ()=>{
+    let num =document.getElementById('surah_num').value;
+    let surah =document.getElementById('surah');
+    surah.innerHTML = "";
+    surah.style.display ='block'
+    axios.get(`https://api.alquran.cloud/v1/surah/${num}`)
+                .then(function (response) {
+                    const data = response.data;
+                    for (let i = 0; i < data.data.ayahs.length; i++) {
+                        
+                        surah.innerHTML += (data.data.ayahs[i].text + " " + "۝" + "");
+                        
+                    }
+                })
+            
 }

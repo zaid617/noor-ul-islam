@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background: linear-gradient(#03045e,#00b4d8) no-repeat center/cover;
+body {
+    background: linear-gradient(#03045e, #00b4d8) no-repeat center/cover;
     height: max-content;
     overflow-x: hidden;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,32 +17,38 @@ header{
     margin-bottom: 20px;
     padding: 5px;
 }
-header ul{
+
+header ul {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 5px;
 }
-.secform{
+
+.secform {
     display: flex;
 }
-header ul li{
+
+header ul li {
     padding: 10px;
 }
-header ul li a{
+
+header ul li a {
     padding: 10px;
     text-decoration: none;
     font-size: 22px;
     color: black;
     transition: all 0.4s ease-in-out;
 }
-header ul li a:hover{
+
+header ul li a:hover {
     background-color: #03045e;
     border-radius: 8px;
     text-decoration: underline;
     color: aliceblue;
 }
-.mainSection{
+
+.mainSection {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -51,12 +58,14 @@ header ul li a:hover{
     flex-wrap: wrap;
     height: max-content;
     border-radius: 20px;
-    -webkit-background-filter: blur(20px);;
+    -webkit-background-filter: blur(20px);
+    ;
     box-shadow: 0px 0px 30px 3px black;
-    background: linear-gradient(#03045e,#00b4d8);
-    
+    background: linear-gradient(#03045e, #00b4d8);
+
 }
-.selectBox{
+
+.selectBox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,40 +78,46 @@ header ul li a:hover{
     cursor: pointer;
     width: 250px;
     height: 250px;
-    
+
 }
-.selectBox:hover{
+
+.selectBox:hover {
     border-radius: 30px;
     background-color: aliceblue;
     color: black;
     box-shadow: 0px 0px 30px 3px black;
-    
+
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-.selectBox h1{
+
+.selectBox h1 {
     text-decoration: underline;
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
-.description{
+
+.description {
     padding: 10px;
     margin: 10px;
     flex-direction: column;
     align-items: center;
     display: none;
-    
+
 }
-.fa-solid{
+
+.fa-solid {
     font-size: 50px;
     margin: 10px;
 
 }
+
 /* new file */
 
-#mainheading{
+#mainheading {
     text-align: center;
     font-size: 70px;
     color: aliceblue;
@@ -114,9 +129,10 @@ a{
     padding: 20px;
     margin: 10px;
     letter-spacing: 4px;
-    
+
 }
-.mainheading3{
+
+.mainheading3 {
     color: aliceblue;
     text-shadow: 0px 0px 10px black;
     margin-bottom: 20px;
@@ -124,7 +140,7 @@ a{
     text-align: center;
 }
 
-.inp{
+.inp {
     padding: 10px;
     width: 250px;
     border-radius: 20px;
@@ -134,11 +150,11 @@ a{
     text-align: center;
 }
 
-.btn{
+.btn {
     width: 90px;
     border: 2px solid aliceblue;
     padding: 10px;
-    border-radius: 5px ;
+    border-radius: 5px;
     color: black;
     font-weight: 400;
     cursor: pointer;
@@ -146,9 +162,10 @@ a{
 
 
 }
-.btn:hover{
-    border:2px solid black;
-    border-radius: 20px ;
+
+.btn:hover {
+    border: 2px solid black;
+    border-radius: 20px;
     color: aliceblue;
     width: 200px;
     background-color: #0077b6;
@@ -156,7 +173,8 @@ a{
     text-transform: uppercase;
 
 }
-.mainheading2{
+
+.mainheading2 {
     text-align: center;
     font-size: 45px;
     color: black;
@@ -169,18 +187,19 @@ a{
     /* background: linear-gradient(#09187d,#0077b6,#87b3cb); */
     background-color: aliceblue;
     box-shadow: inset 0px 0px 15px black;
-    
+
 }
 
-.main{
-   
+.main {
+
     flex-direction: column;
     justify-content: space-around;
-    display:none;
+    display: none;
     flex-direction: column;
-    background: linear-gradient(#03045e,#00b4d8);
+    background: linear-gradient(#03045e, #00b4d8);
     border-radius: 20px;
-    -webkit-background-filter: blur(20px);;
+    -webkit-background-filter: blur(20px);
+    ;
     box-shadow: 0px 0px 30px 3px black;
     margin: 20px;
     padding: 40px;
@@ -188,7 +207,7 @@ a{
 
 }
 
-.timingBox{
+.timingBox {
     display: flex;
     border-radius: 10px;
     border: 4px solid aliceblue;
@@ -198,17 +217,17 @@ a{
     margin-bottom: 5px;
     margin-top: 10px;
     border-radius: 20px;
-    background: linear-gradient(#03045e,#00b4d8);
+    background: linear-gradient(#03045e, #00b4d8);
     box-shadow: 0px 0px 30px 3px black;
 }
 
-.times{
+.times {
     display: flex;
     flex-direction: column;
     color: aliceblue;
     backdrop-filter: blur(8px);
     text-shadow: 0px 0px 15px #000;
-    box-shadow:  0px 0px 12px 1px black ;
+    box-shadow: 0px 0px 12px 1px black;
     border-radius: 20px;
     align-items: center;
     justify-content: space-around;
@@ -217,48 +236,55 @@ a{
     width: 180px;
     border: 2px solid aliceblue;
     cursor: pointer;
-    
+
 }
-.times:hover{
+
+.times:hover {
     color: black;
     text-shadow: 0px 0px 65px #000;
 }
-.times::before {  
+
+.times::before {
     transform: scaleX(0);
     transform-origin: bottom right;
     border-radius: 20px;
-  }
-  
-  .times:hover::before {
+}
+
+.times:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
     border-radius: 18px;
-  }
-  
-  .times::before {
+}
+
+.times::before {
     content: " ";
     display: block;
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     inset: 0 0 0 0;
     background: #fff;
     z-index: -1;
     transition: transform .5s ease;
     border-radius: 19px;
-  }
+}
 
-.prayerName{
+.prayerName {
     text-decoration: underline;
     font-size: 40px;
     margin-bottom: 10px;
 }
-.times1{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+
+.times1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-#form{
+
+#form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,10 +292,12 @@ justify-content: space-around;
     padding: 80px;
     border: 2px solid aliceblue;
     border-radius: 20px;
-    -webkit-background-filter: blur(20px);;
+    -webkit-background-filter: blur(20px);
     box-shadow: 0px 0px 30px 3px black;
-    background: linear-gradient(#03045e,#00b4d8);
-}#form2{
+    background: linear-gradient(#03045e, #00b4d8);
+}
+
+#form2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,9 +305,22 @@ justify-content: space-around;
     padding: 80px;
     border: 2px solid aliceblue;
     border-radius: 20px;
-    -webkit-background-filter: blur(20px);;
+    -webkit-background-filter: blur(20px);
     box-shadow: 0px 0px 30px 3px black;
-    background: linear-gradient(#03045e,#00b4d8);
+    background: linear-gradient(#03045e, #00b4d8);
+}
+
+.form3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 80px;
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);
+    box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e, #00b4d8);
 }
 
 
@@ -289,7 +330,7 @@ justify-content: space-around;
 
 #table_for_calendar {
     margin: 10px auto;
-    background:(#03045e)
+    background: (#03045e)
 }
 
 #table_for_calendar :hover {
@@ -347,9 +388,10 @@ justify-content: space-around;
     color: black;
 }
 
-#calendar{
+#calendar {
     margin: 10px auto;
 }
+
 #heading:hover {
     color: black;
     background-color: #87b3cb;
@@ -358,16 +400,17 @@ justify-content: space-around;
 }
 
 
-#main2{
+#main2 {
     display: none;
     margin: 20px;
     border: 4px solid aliceblue;
     border-radius: 20px;
-    -webkit-background-filter: blur(20px);;
+    -webkit-background-filter: blur(20px);
     box-shadow: 0px 0px 30px 3px black;
-    background: linear-gradient(#03045e,#00b4d8);
+    background: linear-gradient(#03045e, #00b4d8);
 }
-.selectBox2{
+
+.selectBox2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -377,12 +420,29 @@ justify-content: space-around;
     border: 4px solid aliceblue;
     color: aliceblue;
     border-radius: 20px;
-    -webkit-background-filter: blur(20px);;
+    -webkit-background-filter: blur(20px);
     box-shadow: 0px 0px 30px 3px black;
-    background: linear-gradient(#03045e,#00b4d8);
+    background: linear-gradient(#03045e, #00b4d8);
 }
 
-.double{
+.selectBox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    margin: 20px;
+    height: max-content;
+    border: 4px solid aliceblue;
+    color: aliceblue;
+    border-radius: 20px;
+    -webkit-background-filter: blur(20px);
+    ;
+    box-shadow: 0px 0px 30px 3px black;
+    background: linear-gradient(#03045e, #00b4d8);
+}
+
+.double {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -390,7 +450,8 @@ justify-content: space-around;
     margin: 10px;
     padding: 50px;
 }
-.message{
+
+.message {
     border: 6px solid aliceblue;
     border-radius: 40px;
     padding: 40px;
@@ -399,21 +460,25 @@ justify-content: space-around;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 20px 0px black;
-}.message1{
+}
+
+.message1 {
     padding: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: max-content;
-    
+
 }
-.fa-message{
+
+.fa-message {
     font-size: 200px;
     color: aliceblue;
     text-shadow: 0px 0px 30px black;
 }
-.align{
+
+.align {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -423,51 +488,56 @@ justify-content: space-around;
 
 
 
-.features2{
+.features2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-     height: max-content;
-     background-color: black;
-     padding: 50px;
-     box-shadow: inset 0px 0px 10px  white;
- 
- 
-     
-  }
-  table{
-     color: white;
-     border-collapse: separate;
-     border-spacing: 40px 11px;
-     display: inline;
-     font-size: 16px;
-     
- 
-    
- }
- td>a{
-     text-decoration: none;
-     color: white;
- }
- .icons{
-     cursor: pointer;
- }
- th{
-     font-size: 25px;
-     text-decoration: underline;
- 
- }
- .fa-magnifying-glass{
-     font-size: 20px;
-     cursor: pointer;
- }
+    height: max-content;
+    background-color: black;
+    padding: 50px;
+    box-shadow: inset 0px 0px 10px white;
 
- #search{
-     display: none;
- }
 
-@media screen and (max-width:1400px){
- 
+
+}
+
+table {
+    color: white;
+    border-collapse: separate;
+    border-spacing: 40px 11px;
+    display: inline;
+    font-size: 16px;
+
+
+
+}
+
+td>a {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+th {
+    font-size: 25px;
+    text-decoration: underline;
+
+}
+
+.fa-magnifying-glass {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#search {
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+
     table {
         border-spacing: 12px 12px;
         font-size: 9px;
@@ -475,33 +545,40 @@ justify-content: space-around;
 
 }
 
- @media screen and (max-width:920px){
-    header ul li{
+@media screen and (max-width:920px) {
+    header ul li {
         padding: 5px;
     }
-    header ul li a{
+
+    header ul li a {
         padding: 5px;
         font-size: 15px;
-        
+
     }
-    .mainheading2{
+
+    .mainheading2 {
         font-size: 30px;
     }
-    .selectBox{
+
+    .selectBox {
         width: 200px;
         height: 200px;
     }
+
     .fa-message {
         font-size: 150px;
     }
-    .message{
+
+    .message {
         padding: 20px;
         font-size: 13px;
     }
-    .selectBox2{
+
+    .selectBox2 {
         flex-direction: column;
     }
-    .inp{
+
+    .inp {
         width: 180px;
     }
 
@@ -509,46 +586,60 @@ justify-content: space-around;
         border-spacing: 4px 4px;
         font-size: 6px;
     }
+
     #table_for_calendar td {
         padding: 4px;
         margin: 0px;
     }
-    
- }
 
- @media screen and (max-width:360px){
+}
 
-    .mainheading2{
+@media screen and (max-width:360px) {
+
+    .mainheading2 {
         font-size: 20px;
     }
-    .mainheading3{
+
+    .mainheading3 {
         font-size: 17px;
     }
-    .selectBox{
+
+    .selectBox {
         width: 120px;
         height: 120px;
     }
-    .btn{
+
+    .btn {
         width: 70px;
         padding: 7px;
     }
+
     .fa-message {
         font-size: 150px;
     }
-    .message{
+
+    .message {
         padding: 20px;
         font-size: 13px;
     }
-    .selectBox2{
+
+    .selectBox2 {
         flex-direction: column;
     }
-    .inp{
+
+    .inp {
         width: 120px;
         font-size: 12px;
     }
-    th,td{
+
+    th,
+    td {
         font-size: 10px;
         text-align: left;
     }
- 
- }
+
+}
+
+#surah {
+    display: none;
+}
