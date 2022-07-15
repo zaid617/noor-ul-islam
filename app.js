@@ -142,6 +142,7 @@ let ayah = ()=>{
                         surah.innerHTML += (data.data.ayahs[i].text + " " + "۝" + "");
                         
                     }
+                        surahName.innerHTML = data.surah.name;
                 })
             
 }
