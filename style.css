@@ -407,6 +407,8 @@ a {
     box-shadow: 0px 0px 30px 3px black;
     background: linear-gradient(#03045e, #00b4d8);
     height: max-content;
+    align-items: center;
+    justify-content: center;
 }
 
 .selectBox2 {
