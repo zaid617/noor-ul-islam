@@ -78,6 +78,7 @@ header ul li a:hover {
     cursor: pointer;
     width: 250px;
     height: 250px;
+    text-align: center;
 
 }
 
